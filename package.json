@@ -1,0 +1,18 @@
+{
+  "name": "NodeSystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main":"nodemon ./index.js",
+    "dev":"cross-env PORT=6000 NODE_ENV=dev npm run main",
+    "dist":"cross-env PORT=7000 NODE_ENV=dist npm run main"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
